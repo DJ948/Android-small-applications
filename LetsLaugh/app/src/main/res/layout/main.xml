@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LETS LAUGH"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff0300ff"
+        android:textSize="35dp" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnRajni"
+        android:background="@drawable/rajni"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/btnSanta"
+        android:layout_alignStart="@+id/btnSanta"
+        android:onClick="navigate" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btncid"
+        android:background="@drawable/cid"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:onClick="navigate" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/btnSanta"
+        android:background="@drawable/santa"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:onClick="navigate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rajinikanth jokes"
+        android:id="@+id/textView2"
+        android:textColor="#ff0300ff"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnRajni"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CID jokes"
+        android:id="@+id/textView3"
+        android:textColor="#ff0300ff"
+        android:textSize="20dp"
+        android:layout_below="@+id/btncid"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SantaBanta jokes"
+        android:id="@+id/textView4"
+        android:textColor="#ff0300ff"
+        android:textSize="20dp"
+        android:layout_below="@+id/btnSanta"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SantaBanta jokes"
+        android:id="@+id/textView5"
+        android:textColor="#ff0300ff"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+</RelativeLayout>
